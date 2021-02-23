@@ -1,0 +1,16 @@
+.awmt{
+    background-image: url(http://images.computerhistory.org/revonline/images/500004289-03-01.jpg?w=600);
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.lltw{
+    background-image: url(https://ctcgulf.com/wp-content/uploads/2016/05/it4.jpg);
+    position: absolute;
+    top: 320px;
+    left: 750px;
+    height: 480px;
+    width: 750px;
+    z-index: -1;
+}
