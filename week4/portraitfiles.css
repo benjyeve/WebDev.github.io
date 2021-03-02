@@ -1,0 +1,81 @@
+*{
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+}
+
+.face {
+    background-color: bisque;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 75px;
+    top: 100px;
+    left: 100px;
+
+}
+.eye1, .eye2 {
+    background-color: black;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    position: relative;
+    left: 75px;
+    top: 100px;
+}
+
+.eye2 {
+    position: relative;
+    left: 175px;
+    top: -25px;
+}
+
+.nose {
+    background-color: lightgoldenrodyellow;
+    border: none;
+    color: rgb(12, 6, 6);
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    height: 75px;
+    width: 50px;
+    left: 105px;
+    top: -40px;
+    position: relative;
+}
+
+.mouth {
+    background-color: rgb(252, 164, 177);
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 105px;
+    top: 200px;
+    margin: 0px;
+}
+
+.mouth:hover {
+    background-image: url(cat.png);
+    position: relative;
+    width: 200px;
+    height: 100px;
+}
+
+.eyebrows1, .eyebrows2 {
+    text-decoration: wavy underline brown;
+    position: relative;
+    top: -45px;
+    left: -25px;
+    text-orientation: upright;
+    font-size: 20px;
+    text-align: center;
+    background-color: bisque;
+    white-space: nowrap;
+}
+
+.eyebrows2 {
+    position: relative;
+    left: 1px;
+}
